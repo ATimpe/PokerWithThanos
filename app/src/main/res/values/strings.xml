@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Poker With Thanos</string>
+    <string name="button_text_bet">BET</string>
+    <string name="button_text_raise">RAISE</string>
+    <string name="button_text_call">CALL</string>
+    <string name="button_text_check">CHECK</string>
+    <string name="button_text_fold">FOLD</string>
+    <string name="text_bet_prompt">Please enter the amount you want to bet.</string>
+    <string name="cancel">CANCEL</string>
+    <string name="button_start">START</string>
+    <string name="button_set_money">SET STARTING MONEY</string>
+    <string name="button_set_name">SET PLAYER NAME</string>
+    <string name="button_set">SET</string>
+</resources>
