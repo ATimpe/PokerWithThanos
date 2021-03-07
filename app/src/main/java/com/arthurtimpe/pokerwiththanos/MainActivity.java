@@ -447,17 +447,17 @@ public class MainActivity extends AppCompatActivity {
 
     void giveWinnings(int winner) {
         if (playerList.get(0).getPlayerMoney() <= 0) {
-            actionList(playerList.get(1).getPlayerName() + " has one the game!", "game");
+            actionList(playerList.get(1).getPlayerName() + " has won the game!", "game");
             return;
         } else if (playerList.get(1).getPlayerMoney() <= 0) {
-            actionList(playerList.get(0).getPlayerName() + " has one the game!", "game");
+            actionList(playerList.get(0).getPlayerName() + " has won the game!", "game");
             return;
         }
 
         if (winner >= 0) {
             playerList.get(winner).giveMoney(pot.getCurrent_pot());
             updateText();
-            actionList(playerList.get(winner).getPlayerName() + " has one the round!", "round");
+            actionList(playerList.get(winner).getPlayerName() + " has won the round!", "round");
         } else {
             playerList.get(0).giveMoney(pot.getCurrent_pot() / 2);
             playerList.get(1).giveMoney(pot.getCurrent_pot() / 2);
